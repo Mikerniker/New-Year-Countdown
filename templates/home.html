@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content%}
+<div class="container-fluid ">
+<div class="row">
+<div class="top-container col-lg">
+    <img class="countdown img-fluid" src="/static/new_year_img2.png" alt="NY_countdown-img" >
+    <div class="date_today"><h4>{{current_date}}</h4></div>
+    <div class="time_now"><h4>{{time_now}}</h4></div>
+    <div class="countdown-text1"><h1>Days: {{days}}</h1></div>
+    <div class="countdown-text2"><h1>Hours: {{hours}}</h1></div>
+    <div class="countdown-text3"><h1>Minutes: {{minutes}}</h1></div>
+
+</div>
+
+{%endblock%}
